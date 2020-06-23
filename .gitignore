@@ -128,4 +128,4 @@ yarn-error.log*
 
 # My additions:
 
-/public/
+/build/
