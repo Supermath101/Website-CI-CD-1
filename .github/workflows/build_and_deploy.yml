@@ -34,6 +34,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     name: Deploy to Github Pages
+    needs: build
     steps:
       - name: Download Build
         uses: actions/download-artifact@v1
